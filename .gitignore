@@ -1,3 +1,19 @@
-__pycache__
-.jpg
-salida
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Imágenes convertidas
+*.jpg
+salida/
+pdf_conversions/
+
+# Entorno virtual
+.venv/
+
+# Logs
+pdf_converter.log
+
+# Archivos de sistema (opcional)
+.DS_Store
+Thumbs.db
